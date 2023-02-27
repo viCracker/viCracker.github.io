@@ -1,0 +1,84 @@
+body{
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.nav{
+    border-bottom: 1px solid;
+}
+.nav span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:oblique;
+    font-size: 35px;
+}
+.nav a{
+    float: right;
+    margin-left: 20px;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+.nav a:hover{
+    text-decoration: none;
+    color: rgb(240, 187, 12);
+    border-bottom: 2px solid purple;
+}
+.units h2{
+    margin-left: 5%;
+}
+.units{
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.units th{
+    background-color: rgb(240, 187, 12);
+    height: 50px;
+    align-items: center;
+}
+.units tr:hover{
+    background-color: rgb(173, 166, 140);
+}
+.units tr:nth-child(odd){
+    background-color: rgb(226, 221, 204);
+}
+.units a{
+    text-decoration: none;
+    color: rgb(14, 24, 112);
+}
+.units a:hover{
+    text-decoration: underline;
+}
+#abtModal{
+    display: none;
+    position:fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(218, 209, 162, 0.4);
+
+}
+.modal-content{
+    background-color: rgb(210, 226, 67);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid;
+    width: 70%;
+    
+}
+.close{
+    color: #f10000;
+    float:right;
+    font-size: 40px;
+    font-weight: bold;
+}
+.close:hover, .close:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portal.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Lest.com</title>
+</head>
+<body>
+    <div class="nav">
+        <span>LEST</span>
+        <a id="about" href="">About</a>
+        <a href="">FAQ</a>
+        <a href="">Contact</a>
+        <a href="student.html">Account</a>
+    </div>
+    
+    <table class="units">
+        <h2>Registered units</h2>
+        <tr>
+            <th>course</th>
+            <th>Unit code</th>
+            <th>Unit Title</th>
+            <th>Lecturer</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>CT201</td>
+            <td>CCS 3351</td>
+            <td>Distributed Systems</td>
+            <td>Dr.Mwiti</td>
+            <td><a href="">Evaluate Lecturer</a></td>
+        </tr>
+        <tr>
+            <td>CT201</td>
+            <td>CCS 3353</td>
+            <td>Research Methodology and Group Project</td>
+            <td>Mrs. Mwadulo</td>
+            <td><a href="">Evaluate Lecturer</a></td>
+        </tr>
+        <tr>
+            <td>CT201</td>
+            <td>CCS 3354</td>
+            <td>Data Mining</td>
+            <td>Mr.Lazy</td>
+            <td><a href="">Evaluate Lecturer</a></td>
+        </tr>
+        <tr>
+            <td>CT201</td>
+            <td>CCS 3355</td>
+            <td>Compiler Construction</td>
+            <td>Dr. Blahblah</td>
+            <td><a href="">Evaluate Lecturer</a></td>
+        </tr>
+        <tr>
+            <td>CT201</td>
+            <td>CCS 3380</td>
+            <td>Industrial Attachment</td>
+            <td>Prof. Ulimwengu</td>
+            <td><a href="">Evaluate Lecturer</a></td>
+        </tr>
+        <tr>
+            <td>CT201</td>
+            <td>CIT 3253</td>
+            <td>Network Administration and Management</td>
+            <td>Daktari</td>
+            <td><a href="">Evaluate Lecturer</a></td>
+        </tr>
+        <tr>
+            <td>CT201</td>
+            <td>CIT 3350</td>
+            <td>Mobile Application Development</td>
+            <td>Mr. Retard</td>
+            <td><a href="">Evaluate Lecturer</a></td>
+        </tr>
+        <tr>
+            <td>CT201</td>
+            <td>SSA 3320</td>
+            <td>Operations Research</td>
+            <td>Unknown</td>
+            <td><a href="">Evaluate Lecturer</a></td>
+        </tr>
+    </table>
+
+    <div id="abtModal" >
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>About LEST</h2>
+            <p>
+LEST is an abbreviation for Student-Lecturer Evaluation System,
+but of course with some word-play. Our system enables learners to Evaluate
+Lecturer's teaching at their convenience. This helps to easily identify areas for improvement. 
+
+The provided data by the information is processed by our system and used to generate
+useful information in form of pie-charts, bar graphs and spreadsheets, a process which takes 
+seconds to complete hence very reliable for lecturers and school Administration to get the feedback and 
+make relevant decisions ASAP. 
+                
+            </p>
+        </div>
+    </div>
+
+    <script>
+        var modal = document.getElementById("abtModal");
+
+        var btn = document.getElementById("about");
+
+        var span = document.getElementsByClassName("close")[0];
+        btn.onclick = function(){
+            modal.style.display ="block";
+        }
+        span.onclick = function(){
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event){
+            if (event.target == modal){
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
