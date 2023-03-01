@@ -1,0 +1,116 @@
+body{
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 10%;
+    background-image: url("student.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 75%;
+    background-position: 80% 1%;
+}
+.nav{
+    border-bottom: 1px solid;
+}
+.nav span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:oblique;
+    font-size: 35px;
+}
+.nav a{
+    float: right;
+    margin-left: 20px;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+.nav a:hover{
+    text-decoration: none;
+    color: rgb(240, 187, 12);
+    border-bottom: 2px solid purple;
+}
+.landing{
+    margin-top: 5%;
+}
+.landing h1{
+    font-size: 44px;
+}
+.landing a{
+    text-decoration: none;
+}
+.landing pre{
+    margin-top: 5%;
+}
+.landing #signIn{
+    color: black;
+    margin-left: 5%;
+    font-size: 35px;
+    background-color: rgb(240, 187, 12);
+    border-radius: 7px;
+    padding: 5px;
+}
+#signIn:hover{
+    border: 1px solid black;
+}
+#aboutcard,#faqcard,#contactcard{
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: none;
+    position:fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(218, 209, 162, 0.7);
+
+}
+.modal-content{
+    border-radius: 40px;
+    background-color: rgb(228, 183, 37);
+    margin:auto;
+    padding: 20px;
+    border: 1px solid;
+    width: 60%;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.modal-content h2{
+    text-align: center;
+}
+.close,.faqclose,.contactclose{
+    color: #f10000;
+    float:right;
+    font-size: 40px;
+    font-weight: bold;
+}
+.close:hover, .close:focus,.faqclose:hover,.faqclose:focus,.contactclose:hover,.contactclose:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+#contactcard .modal-content{
+    font-size: 20px;
+    width: 40%;
+}
+
+.modal-content .text,textarea{
+    font-size: 20px;
+    background-color: azure;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+.text{
+    height: 30px;
+}
+.modal-content .submit{
+    color: aqua;
+    height: 40px;
+    background-color: purple;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-left: 75%;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lest.com</title>
+    <link rel="icon" href="favicon.ico" type="x/icon">
+    <link rel="stylesheet" href="student.css">
+</head>
+<body>
+    <div class="nav">
+        <span>LEST</span>
+        <a id="contact" href="#">Contact</a>
+        <a id="about" href="#">About</a>
+        <a id="faq" href="#">FAQ</a>
+    </div>
+    
+    <div class="log">
+        <h2>Student Login</h2>
+        <div class="inputscontainer">
+        <form action="portal.html">
+            Registration Number: <br>
+            <input class="inputs" type="text" required> <br>
+            Password: <br>
+            <input class="inputs" type="password" required> <br> <br>
+            <input class="submit" type="submit" value="Login"> <br> Forgot Password? <a href="">Reset</a>
+        </form>
+        </div>
+        <p>Visit Registrars office for Registration</p>
+    </div>
+
+    <div id="aboutcard" >
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>About LEST</h2>
+            <p>
+LEST is an abbreviation for Student-Lecturer Evaluation System,
+but of course with some word-play. Our system enables learners to Evaluate
+Lecturer's teaching at their convenience. This helps to easily identify areas for improvement. 
+
+The provided data by the information is processed by our system and used to generate
+useful information in form of pie-charts, bar graphs and spreadsheets, a process which takes 
+seconds to complete hence very reliable for lecturers and school Administration to get the feedback and 
+make relevant decisions ASAP. 
+                
+            </p>
+        </div>
+    </div>
+
+    <div id="faqcard" >
+        <div class="modal-content">
+            <span class="faqclose">&times;</span>
+            <h2>Frequently Asked Questions</h2>
+            <p>
+                <b>Q1.How Do I assess Lecturers?</b> <br>
+                Login to your account and use the 'Evaluate' button for each unit to evaluate a Lecturer. <br>
+                <b>Q2.What is the login password for a new student?</b> <br>
+                The default Login Credential are student's registration number and students national id number for
+                password. <br> 
+                <b>Q3.Why is the site not working when am connected to a VPN?</b> <br>
+                For security reasons we have disabled use of IP addresses that differ with the 
+                initial IP address used to login in terms of location. If on your first login you used an IP address from 
+                Kenya then any other IP address will be treated as a potential attack hence you can not sign in to 
+                our website. <br>
+      
+            </p>
+        </div>
+    </div>
+
+    <div id="contactcard" >
+        <div class="modal-content">
+            <span class="contactclose">&times;</span>
+            <h2>Contact</h2>
+            <form action="">
+                Registration Number <br>
+                <input class="text" type="text"><br>
+                Message <br>
+                <textarea name="Message" id="textarea" cols="30" rows="10">
+                </textarea> <br>
+                <input class="submit" type="submit" value="Send Message">
+            </form>
+        </div>
+    </div>
+
+
+    <script>
+        var contmodal = document.getElementById("contactcard");
+
+        var contbtn = document.getElementById("contact");
+
+        var contspan = document.getElementsByClassName("contactclose")[0];
+        contbtn.onclick = function(){
+            contmodal.style.display ="block";
+        }
+        contspan.onclick = function(){
+            contmodal.style.display = "none";
+        }
+    </script>
+
+
+    <script>
+        var faqmodal = document.getElementById("faqcard");
+
+        var faqbtn = document.getElementById("faq");
+
+        var faqspan = document.getElementsByClassName("faqclose")[0];
+        faqbtn.onclick = function(){
+            faqmodal.style.display ="block";
+        }
+        faqspan.onclick = function(){
+            faqmodal.style.display = "none";
+        }
+    </script>
+
+    <script>
+        var modal = document.getElementById("aboutcard");
+
+        var btn = document.getElementById("about");
+
+        var span = document.getElementsByClassName("close")[0];
+        btn.onclick = function(){
+            modal.style.display ="block";
+        }
+        span.onclick = function(){
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+</html>
