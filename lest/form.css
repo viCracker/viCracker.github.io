@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+    transition: .9s;
+}
+body{
+    margin: 0;
+    color: aliceblue;
+    font-size: 40px;
+}
+.banner{
+    background: url("top-view-laptop-with-diploma-globe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top{
+    padding: 5%;
+    border-bottom: 10px solid black;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.nav span{
+    color: rgb(10, 129, 241);
+    font-size: 60px;
+    font-weight: 1000;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav a{
+    float: right;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.nav a:hover{
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+
+.modal-form{
+    margin-left: 15%;
+    width: 60%;
+    overflow: auto;
+    border: 1px solid black;
+    padding: 3%;
+    background: rgba(10,10,10,0.9);
+    color: aliceblue;
+    font-size: 22px;
+    border-radius: 10px;
+}
+.eval strong{
+    color: #0a81f1;
+    font-size: 22px;
+}
+.questions{
+    margin-top: 2%;
+}
+.questions input{
+    margin: 3% 0 0% 10%;
+}
+.questions label{
+    font-size: 20px;
+}
+.modal-form h2{
+    font-weight: 900;
+    border-bottom: 1px solid silver;
+}
+.questions span{
+    font-size: 20px;
+    color: rgb(158, 144, 247);
+}
+#submit{
+    margin:2% 10% 0% 20%;
+    background-color: #0a81f1;
+    height: 40px;
+    width: 120px;
+    border-radius: 9px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+#submit:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}

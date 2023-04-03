@@ -1,0 +1,138 @@
+html{
+    scroll-behavior: smooth;
+    transition: .9s;
+}
+body{
+    margin: 0;
+    color: aliceblue;
+    font-size: 40px;
+}
+.banner{
+    background: url("top-view-laptop-with-diploma-globe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top{
+    padding: 5%;
+    height:600px;
+    border-bottom: 10px solid black;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.nav span{
+    color: rgb(10, 129, 241);
+    font-size: 60px;
+    font-weight: 1000;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav a{
+    float: right;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.nav a:hover{
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+
+.message{
+    float: right;
+    width: 50%;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.message h2,.bottom h3{
+    color: #f3c80a;
+    font-weight: 1000;
+    margin: 0;
+}
+.message p,.bottom p{
+    font-size: 30px;
+}
+.message a,.easetxt a{
+    color: black;
+    text-decoration: none;
+    background-color: #0a81f1;
+    padding: 5px;
+    border-radius: 8px;
+}
+.message a:hover, .easetxt a:hover{
+    background-color: #0a81f180;
+    border: 2px solid ;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    background: rgb(10, 10, 10);
+}
+.bottom h3, .bottom p{
+    margin: 0;
+}
+.bottom h3{
+    margin: 5% 0 5% 0;
+}
+.about,.portable,.security,.ease{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 4%;
+    height: fit-content;
+    border-bottom: 10px solid black;
+}
+.abouttxt,.securitytxt{
+    order: 1;
+    width: 50%;
+}
+.aboutimg,.securityimg{
+    order: 2;
+    width: 20%;
+}
+.easetxt,.portabletxt{
+    
+    order: 2;
+    width: 40%;
+}
+.easeimg,.portableimg{
+    order: 1;
+    width: 40%;
+    margin-left: 6%;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 100;
+}
+.footer .reach{
+    font-size: 15px;
+    padding-left: 30%;
+}
+.footer .links{
+    list-style: none;
+}
+.links li{
+    color: aliceblue;
+    list-style: none;
+}
+li>a{
+    color: aliceblue;
+    text-decoration: underline;
+}
+li>a:hover{
+    color: blueviolet;
+}

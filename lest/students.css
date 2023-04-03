@@ -1,0 +1,169 @@
+html{
+    scroll-behavior: smooth;
+    transition: .9s;
+}
+body{
+    margin: 0;
+    color: aliceblue;
+    font-size: 40px;
+}
+.banner{
+    background: url("top-view-laptop-with-diploma-globe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top{
+    padding: 5%;
+    height:600px;
+    border-bottom: 10px solid black;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.nav span{
+    color: rgb(10, 129, 241);
+    font-size: 60px;
+    font-weight: 1000;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav a{
+    float: right;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.nav a:hover{
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+
+/* .message{
+    float: right;
+    width: 50%;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.message h2,.bottom h3{
+    color: #f3c80a;
+    font-weight: 1000;
+    margin: 0;
+}
+.message p,.bottom p{
+    font-size: 30px;
+}
+.message a,.easetxt a{
+    color: black;
+    text-decoration: none;
+    background-color: #0a81f1;
+    padding: 5px;
+    border-radius: 8px;
+}
+.message a:hover, .easetxt a:hover{
+    background-color: #0a81f180;
+    border: 2px solid ;
+} */
+
+.info{
+    font-size: 22px;
+    background: rgba(17, 17, 17, 0.9);
+    width: 50%;
+    margin: 5% 20%;
+    padding: 0 5% 3% 5%;
+    border-radius: 10px;
+}
+.info img{
+    border-radius: 50px;
+    float: left;
+}
+.info .text{
+    padding-left: 25%;
+}
+.text a{
+    text-decoration: none;
+    color: rgb(226, 147, 43);
+    margin-left: 30%;
+}
+.text a:hover{
+    color: rgb(10, 129, 241);
+    font-weight: 600;
+}
+.info h3{
+    padding: 3% 0 0 0;
+    border-bottom: 1px silver solid;
+}
+.info span{
+    font-size: 20px;
+    color: rgb(158, 144, 247);
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    background: rgb(12, 12, 12);
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 100;
+}
+.footer .reach{
+    font-size: 15px;
+    padding-left: 30%;
+}
+.footer .links{
+    list-style: none;
+}
+.links li{
+    color: aliceblue;
+    list-style: none;
+}
+li>a{
+    color: aliceblue;
+    text-decoration: underline;
+}
+li>a:hover{
+    color: blueviolet;
+}
+
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    margin-left: 5%;
+    font-size: 22px;
+    min-width: 400px;
+    background: rgba(43, 40, 40, 0.9);
+}
+
+.content-table a{
+    text-decoration: none;
+    color: #0a81f1;
+}
+.content-table a:hover{
+    color: #0964b9;
+    text-decoration: underline;
+}
+.content-table thead tr{
+    background-color: #0a81f1;
+    color: aliceblue;
+    text-align: left;
+    font-weight: 700;
+}
+.content-table th, .content-table td{
+    padding: 10px 10px;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid rgb(124, 85, 85);
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: rgb(30, 31, 32);
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #0a81f1;
+}
